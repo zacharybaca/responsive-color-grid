@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+
+#main {
+    border: 3px solid black;
+}
+
+#pink {
+    display: inline-block;
+    border: 2px solid white;
+    height: 150px;
+    width: 100%;
+    background-color: #F5C606;
+}
+
+#red {
+    display: inline-block;
+    border: 5px solid white;
+    height: 150px;
+    width: 25%;
+    background-color: #EE2E84;
+}
