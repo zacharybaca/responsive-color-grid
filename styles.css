@@ -3,13 +3,14 @@
     font-size: 0px;
 }
 
-
 #main {
-    border: 3px solid black;
     height: 100vh;
 }
 
-#pink {
+/* Layout For Screen Sizes Above 768px */
+
+@media screen and (min-width: 768px) {
+    #pink {
     display: inline-block;
     border: 5px solid white;
     height: 25vh;
@@ -47,4 +48,48 @@
     height: 25vh;
     width: 25%;
     background-color: #E76E34;
+}
+}
+
+/* Layout for Screen Sizes Below 768px */
+@media screen and (max-width: 768px) {
+    #pink {
+        display: block;
+        border: 5px solid white;
+        height: 25vh;
+        width: 100%;
+        background-color: #F5C606;
+    }
+
+    #red {
+    display: block;
+    border: 5px solid white;
+    height: 25vh;
+    width: 100%;
+    background-color: #EE2E84;
+}
+
+#blue {
+    display: block;
+    border: 5px solid white;
+    height: 25vh;
+    width: 100%;
+    background-color: #85CFD8;
+}
+
+#green {
+    display: block;
+    border: 5px solid white;
+    height: 25vh;
+    width: 100%;
+    background-color: #8DC63F;
+}
+
+#orange {
+    display: block;
+    border: 5px solid white;
+    height: 25vh;
+    width: 100%;
+    background-color: #E76E34;
+}
 }
