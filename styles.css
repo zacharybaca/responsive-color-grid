@@ -6,12 +6,13 @@
 
 #main {
     border: 3px solid black;
+    height: 100vh;
 }
 
 #pink {
     display: inline-block;
-    border: 2px solid white;
-    height: 150px;
+    border: 5px solid white;
+    height: 25vh;
     width: 100%;
     background-color: #F5C606;
 }
@@ -19,7 +20,31 @@
 #red {
     display: inline-block;
     border: 5px solid white;
-    height: 150px;
+    height: 25vh;
     width: 25%;
     background-color: #EE2E84;
+}
+
+#blue {
+    display: inline-block;
+    border: 5px solid white;
+    height: 25vh;
+    width: 50%;
+    background-color: #85CFD8;
+}
+
+#green {
+    display: inline-block;
+    border: 5px solid white;
+    height: 25vh;
+    width: 75%;
+    background-color: #8DC63F;
+}
+
+#orange {
+    display: inline-block;
+    border: 5px solid white;
+    height: 25vh;
+    width: 25%;
+    background-color: #E76E34;
 }
